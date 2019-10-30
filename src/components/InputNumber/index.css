@@ -1,0 +1,47 @@
+.react-ui__input {
+    border: 1px solid gray;
+}
+
+.focus {
+    border-color: rgb(61, 124, 103);
+}
+
+.size-normal {
+    width: 150px;
+    line-height: 20px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.size-normal input {
+    font-size: 14px;
+}
+
+.size-large {
+    width: 250px;
+    line-height: 30px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.size-large input {
+    font-size: 16px;
+}
+
+.size-small {
+    width: 100px;
+    line-height: 16px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.size-small input {
+    font-size: 12px;
+}
+
+.react-ui__input input {
+    outline: none;
+    border: none;
+    padding: 0;
+    width: 100%;
+}
