@@ -76,11 +76,11 @@ export default class InputNumber extends React.Component {
      */
     format(str) {
         // 表示有小数点
-        const haspot = str.indexOf('.') != -1;
+        const haspot = str.indexOf('.') !== -1;
         //限制只能输入一个小数点
         if ( haspot ) {
             let _str = str.substr(str.indexOf(".") + 1);
-            if ( _str.indexOf(".") != -1 ) {
+            if ( _str.indexOf(".") !== -1 ) {
                 str = str.substr(0,str.indexOf(".") + _str.indexOf(".") + 1);
             }
         }

@@ -22,8 +22,22 @@
 }
 
 .cont {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 10vw;
   height: 80vh;
+}
+
+.cont div {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.modal-btn {
+  border: 1px solid #1a901a;
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  padding: 10px;
+  border-radius: 5px;
+  color: #1a901a;
+  margin-left: 20px;
 }
