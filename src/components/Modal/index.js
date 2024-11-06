@@ -5,6 +5,7 @@ import Notice from './notice';
 
 // test
 //s
+//aa
 const config = {
     title: '',
     content: '', // 可以是字符串 或者react dom
