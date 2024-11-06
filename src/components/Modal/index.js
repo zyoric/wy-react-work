@@ -3,6 +3,7 @@ import ReactDom from 'react-dom';
 import './index.css';
 import Notice from './notice';
 
+
 const config = {
     title: '',
     content: '', // 可以是字符串 或者react dom
