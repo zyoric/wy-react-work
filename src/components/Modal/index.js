@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import './index.css';
 import Notice from './notice';
-
+//d
 //d
 //23
 // 222
